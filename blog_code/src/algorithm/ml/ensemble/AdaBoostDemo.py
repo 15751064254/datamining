@@ -2,7 +2,7 @@
 '''
 Created on 2017年11月27日
 
-@author: Lu.Yi
+@author: Scorpio.Lu
 '''
 
 import numpy as np

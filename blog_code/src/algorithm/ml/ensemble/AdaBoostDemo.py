@@ -29,6 +29,11 @@ weakClassifier=DecisionTreeClassifier(max_depth=1)
 clf=AdaBoostClassifier(base_estimator=weakClassifier,algorithm='SAMME',n_estimators=300,learning_rate=0.8)
 clf.fit(X, y)
 
+clf_result=clf.predict(X)
+error=np.sum(np.abs(y-clf_result))/len(y)
+#输出错误率
+print(error)
+
 #绘制分类效果
 x1_min=X[:,0].min()-1
 x1_max=X[:,0].max()+1

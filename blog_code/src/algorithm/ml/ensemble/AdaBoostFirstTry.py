@@ -1,8 +1,9 @@
 #coding=utf-8
+#python 3.5
 '''
-Created on 2017年11月24日
+Created on 2017年11月29日
 
-@author: Lu.Yi
+@author: Scorpio.Lu
 '''
 '''
 在scikit-learn库中，有AdaBoostRegression（回归）和AdaBoostClassifier（分类）两个
